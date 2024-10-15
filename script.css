@@ -1,0 +1,99 @@
+* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C5E1A5;
+    margin: 0;
+    padding: 150px;
+    border-radius: 10px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: white;
+    width: 88%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px black;
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #AFB42B;
+    color: white;
+    border:solid #2b031b;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+}
+
+.profile-picture {
+    display: block;
+    margin: 0 auto;
+    border: 4px solid #50490e;
+    box-shadow: 0 15px 15px #2b031b;
+    border-radius:100%; /* Ensures it's a circle */
+    width: 300px; /* Set equal width and height */
+    height: 300px; /* Set equal width and height */
+    object-fit: cover;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 20px 0 10px; 
+    margin-bottom: 30px;
+    padding: 2%;
+    border-radius: 10px;
+    border: solid #827717;
+    box-shadow:0 10px  #827717;
+    text-align: center;
+}
+
+h2{
+    color: black;
+    border: 2px solid black;
+    box-shadow: 0 10px #2b031b;
+    border-radius: 10px;
+    
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    border:solid #827717;
+    box-shadow: 0 5px  #827717;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    border:solid #827717;
+    box-shadow: 0 5px #827717;
+     cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #50490e;
+}
